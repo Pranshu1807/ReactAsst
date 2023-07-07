@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.counter {
+  height: 50vh;
+  width: 30vw;
+  margin: 7vh;
+  background-color: rgb(179, 176, 176);
+  display: flex;
+  flex-direction: column;
+  padding: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+.counter button {
+  height: 5vh;
+  width: 10vw;
+  margin: 2vh;
+  cursor: pointer;
+}
+.counter input {
+  height: 5vh;
+  width: 10vw;
+  margin: 2vh;
+  background-color: rgb(204, 202, 202);
+  text-align: center;
+  border: none;
+}
+.value {
+  background-color: white;
+  width: 20vw;
+  height: 5vh;
+  border: 1px;
+  margin: 2vh;
+  text-align: center;
+}
+.counterName {
+  color: black;
+  font-size: 1.5rem;
+}
